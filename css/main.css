@@ -14,15 +14,12 @@
     background-color: #F8F2F4;
 }
 
-
-
-.navbar-nav {
+.navbar-nav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     position: absolute;
 }
-
 
 .navbar-nav li a {
     display: block;
@@ -37,6 +34,7 @@
     color: #2E0A16;
     background-color: #F8F2F4;
 }
+
 #myCarousel {
     width: 55%;
     float: right;
