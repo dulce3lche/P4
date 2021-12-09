@@ -21,7 +21,7 @@
     position: absolute;
 }
 
-.navbar-nav li a {
+.nav-item li a {
     display: block;
     width: 160px;
     text-align: center;
