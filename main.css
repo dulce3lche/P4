@@ -1,0 +1,54 @@
+#navbar-brand {
+    padding: 2%;
+}
+.logo_row, .navbar_row{
+    background-color: #F8F2F4;
+}
+.navbar-toggler .navbar-toggler-icon {
+    border-color: transparent;
+    background-color: #D4A9A6;
+    opacity: 0.3;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #2E0A16;
+    background-color: #F8F2F4;
+}
+
+ul.navbar-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+a.nav-link {
+    display: block;
+    width: 160px;
+    text-align: center;
+    padding: 1em 0;
+    text-decoration: none;
+    font-weight: bold;
+}
+.dropdown-menu{
+    color: #2E0A16;
+    background-color: #F8F2F4;
+}
+#myCarousel {
+    width: 55%;
+    float: right;
+    margin: auto;
+}
+.carousel-inner .item, .carousel-inner .item a img{
+    width: 55%;
+    margin: auto;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
