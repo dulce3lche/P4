@@ -21,12 +21,12 @@
     position: relative;
 }
 
-.navbar-nav ul {
+.navbar-nav {
     position: absolute;
     float: none;
 }
 
-.nav-link a{
+a.nav-link {
     display: block;
     width: 160px;
     text-align: center;
