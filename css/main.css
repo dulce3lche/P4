@@ -14,12 +14,17 @@
     background-color: #F8F2F4;
 }
 
-collapse {
+#collapsiblenavbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    position: relative;
+}
+
+#navbar-nav ul {
     position: absolute;
 }
+
 a.nav-link {
     display: block;
     width: 160px;
