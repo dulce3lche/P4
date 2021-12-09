@@ -14,19 +14,17 @@
     background-color: #F8F2F4;
 }
 
-#collapsibleNavbar {
+
+
+.navbar-nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    position: relative;
-}
-
-.navbar-nav {
     position: absolute;
-    float: none;
 }
 
-a.nav-link {
+
+.navbar-nav li a {
     display: block;
     width: 160px;
     text-align: center;
@@ -34,6 +32,7 @@ a.nav-link {
     text-decoration: none;
     font-weight: bold;
 }
+
 .dropdown-menu{
     color: #2E0A16;
     background-color: #F8F2F4;
