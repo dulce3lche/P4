@@ -10,7 +10,7 @@ header img {
 	display: inline-block;
 }
 
-.navbar-brand {
+a.navbar-brand {
 	max-width: 35%;
 	position: relative;
 }
