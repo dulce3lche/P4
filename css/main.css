@@ -10,6 +10,11 @@ header img {
 	display: inline-block;
 }
 
+.navbar-brand {
+	max-width: 35%;
+	position: relative;
+}
+
 .navbar.navbar-dark {
 	list-style-type: none;
 	margin: 0;
