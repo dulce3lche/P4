@@ -1,3 +1,14 @@
+/* the reset selector*/
+* {
+	margin: 0;
+	padding: 0; 
+}
+
+header img {
+	float: left;
+	padding: 0 30px;
+}
+
 .footer {
     position: fixed;
     left: 0;
