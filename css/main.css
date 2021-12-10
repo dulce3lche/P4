@@ -14,14 +14,14 @@ nav {
     background-color: #F8F2F4;
 }
 
-nav ul{
+nav.navbar-nav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     position: absolute;
 }
 
-.nav-item li a {
+nav.nav-item li a {
     display: block;
     width: 160px;
     text-align: center;
