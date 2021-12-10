@@ -9,19 +9,22 @@
     background-color: #D4A9A6;
     opacity: 0.3;
 }
-nav {
+.navbar-nav {
     color: #2E0A16;
     background-color: #F8F2F4;
 }
 
-nav.navbar-nav ul{
+.navbar-nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     position: absolute;
 }
 
-nav.nav-item li a {
+.navbar-nav li {
+    float: left;
+}
+.nav-item a {
     display: block;
     width: 160px;
     text-align: center;
