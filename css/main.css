@@ -10,6 +10,13 @@ header img {
 	display: inline-block;
 }
 
+.navbar.navbar-dark {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
 .footer {
     position: fixed;
     left: 0;
