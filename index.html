@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Where's Eve</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Where's Eve</title>
+
+    <!-- CSS Only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link href="css/main.css" rel="stylesheet">
-    <script src="js/slideshow.js"></script>
+    <link href="main.css" rel="stylesheet">
+
 </head>
 <body>
-    <header>
-        <img src="images/logo.png" alt="Where's Eve Logo" height="225">
-    </header>
 <div class="container-fluid">
     <div class="row">
-        <div class="row">
+        <div class="logo_row">
            <!-- Brand -->
-           <a class="navbar-brand" href=index.html><img src="images/logoWE.png" alt="Where's Eve"></a>
+           <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Where's Eve Logo" height="300"></a>
+            <h1>WHERE'S EVE</h1>
+            <h2>for all women</h2>
         </div>
         <div class="navbar_row">
-            <nav class="navbar navbar-expand-md justify-content-start navbar-dark col-12">
+            <nav class="navbar navbar-expand-md justify-content-center navbar-dark col-12">
                 <!-- Responsive Button for the smaller menu -->
                 <button class="navbar-toggler" type="button"
                         data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -66,65 +66,64 @@
                 </div>
             </nav>
         </div>
-
-        <p class="col-1">Col 1</p>
-        <p class="col-1">Col 2</p>
-        <p class="col-1">Col 3</p>
-        <p class="col-1">Col 4</p>
-        <p class="col-1">Col 5</p>
-        <p class="col-1">Col 6</p>
-        <p class="col-1">Col 7</p>
-        <p class="col-1">Col 8</p>
-        <p class="col-1">Col 9</p>
-        <p class="col-1">Col 10</p>
-        <p class="col-1">Col 11</p>
-        <p class="col-1">Col 12</p>
-        <div class="col-sm-4  text-center">
-            <h2>h3 Bootstrap heading (24px)</h2>
-            <h3>h4 Bootstrap heading (18px)</h3>
-        </div>
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-to-slide="0" class="active"></li>
-                <li data-target="#myCarousel" data-to-slide="1" ></li>
-                <li data-target="#myCarousel" data-to-slide="2" ></li>
-            </ol>
-
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-                <div class="item active">
-                    <img src="images/Me.jpg" alt="Monthly Feature">
-                </div>
-
-                <div class="item">
-                    <img src="images/podcastlogo.png" alt="Podcasts">
-                </div>
-
-                <div class="item">
-                    <img src="images/currentevents.jpg" alt="Events">
+        <div class="row-cols-3">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <div class="cardheader">
+                            <h3><b>Mission & Vision</b></h3>
+                        </div>
+                    </div>
+                    <div class="flip-card-back">
+                        <h3><b>Where's Eve</b></h3>
+                        <p style="font-family: Paris"><b>A Community for Women</b></p>
+                        <p style="font-family: Julius; text-align: center">Helping Women who are suffering loss of identity and purpose</p>
+                        <p style="font-family: Julius; text-align: center">Our vision is to provide a platform to discuss & share experiences through online discussions & community events. Providing resources to assist in finding true self. Working with other women to rebuild themselves emotionally & physically through workshops that will address their needs.</p>
+                    </div>
                 </div>
             </div>
-
-            <!-- Left and right controls -->
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-                <span class="sr-only"></span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-                <span class="sr-only"></span>
-            </a>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <div class="cardheader">
+                            <h3><b>Monthly Feature</b></h3>
+                        </div>
+                    </div>
+                    <div class="flip-card-back">
+                        <h3 style="font-size: 1.5em"> <b>Our Monthly Feature</b></h3>
+                        <a class="feature" href="#"><img src="images/me.jpg" alt="Feature Story" height="200" style="display: inline-block"></a>
+                        <p style="font-family: Paris; text-align: center"><b>In the Beginning</b></p>
+                        <p style="font-family: Julius; text-align: center">When I could even begin to really form dreams and goals for myself, which I believe begins with maturity, I envisioned a life much different than where I am now.</p>
+                        <p style="font-family: Julius; text-align: center; font-size: 0.5em"><b>click the image to access our feature story</b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <div class="cardheader">
+                            <h3><b>Events</b></h3>
+                        </div>
+                    </div>
+                    <div class="flip-card-back">
+                        <h3 style="font-size: 1.5em"><b>Upcoming Events</b></h3>
+                        <a class="feature" href="#"><p style="font-family: Julius; text-align: center; color: #F4EBE8">Resume Writing Workshop</p></a>
+                        <a class="feature" href="#"><p style="font-family: Julius; text-align: center; color: #F4EBE8">Group Discussions - Parenting</p></a>
+                        <a class="feature" href="#"><p style="font-family: Julius; text-align: center; color: #F4EBE8">Coat Drive</p></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <footer class="footer page-footer font-small ">
         <div class="container">
             <div class="footer_row">
-                <span class="text-muted">&copy; Blanca Rosario, 5 Dec 2021 |  Terms Of Use  |  Privacy Statement</span>
+                <span class="text-muted">&copy; Blanca Rosario 2021 |  Terms Of Use  |  Privacy Statement</span>
             </div>
         </div>
-    <!-- Javascript Bundle with Popper -->
     </footer>
+
+<!-- Javascript Bundle with Popper -->
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
