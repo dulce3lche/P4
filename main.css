@@ -4,8 +4,12 @@
     padding: 0;
 }
 
-a.navbar-brand img {
+.navbar-brand img {
     float: left;
+    text-decoration: none;
+}
+.navbar-toggler {
+    background-color: #D4A9A6;
 }
 
 @font-face {
@@ -25,6 +29,12 @@ body {
     max-width: 4408px;
 }
 
+p {
+    font-family: Julius;
+    text-align: center;
+    color: #F4EBE8;
+
+}
 .container-fluid {
     width: 100%;
 }
@@ -33,6 +43,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: #2E0A16;
 }
 
 h1 {
@@ -40,7 +51,6 @@ h1 {
     font-size: 5em;
     margin: 1em 0 0.25em;
     padding-left: 15px;
-
 }
 
 h2 {
@@ -51,13 +61,33 @@ h2 {
     bottom: 1em;
     margin: 0;
 }
+h4 {
+    font-family: Paris;
+    font-size: 2em;
+    text-align: center;
+    left: 7em;
+    bottom: 1em;
+    margin: 0;
+}
+
+a.navbar-brand {
+    color: #2E0A16;
+
+}
+.profile {
+    color: #F8F2F4;
+    background-color: #2E0A16;
+    font-family: Julius;
+}
+
+
 
 h3 {
     font-family: Julius;
     font-size: 2em;
 }
 
-.logo_row, .navbar_row {
+.row, .navbar_row {
     background-color: #F8F2F4;
 
 }
@@ -128,7 +158,7 @@ li.dropdown {
 }
 
 .flip-card {
-    background-color: #F4EBE8;
+    background-color: #D4A9A6;
     width: 400px;
     height: 600px;
     perspective: 1000px;
@@ -176,9 +206,11 @@ li.dropdown {
     transform: rotateY(180deg);
     padding: 5%;
 }
-a {
+
+.feature {
     text-decoration: none;
 }
+
 .footer {
     position: fixed;
     left: 0;
@@ -194,31 +226,17 @@ a {
 }
 
 /* tablet portrait layout (less than 959px) */
-/*@media only screen and (max-width: 959px) {
-    h1 { font-size: 135%;}
-    h3 { font-size: 120%;}
-}/*
+@media only screen and (max-width: 959px) {
+    .container-fluid { width: 52.3%;}
+}
 
 /* mobile landscape layout (less than 767px) */
-/*@media only screen and (max-width: 767px) {
-    .navbar-brand img { float: none;  }
-    .logo_row .navbar_row { text-align: center; }
-    .row-cols-3 {
-        float: none;
-        width: 95%;
-        -moz-column-count: 3;
-        -webkit-column-count: 3;
-        column-count: 3;
-    }
-    aside { padding-right: 2.5%; }
-    a.feature img { max-width: 30%;}
-    #collapsibleNavbar { display: none; }
-    .navbar_row { display: block;}
-
+@media only screen and (max-width: 767px) {
+    .container-fluid { width: 44.3%;}
 }
 
 /* mobile portrait layout (479px or less) */
 /*@media only screen and (max-width: 479px) {
-    body { font-size: 90%;}
+    .container-fluid { font-size: 90%; width: 95%;}
 
-}/*
+}*/
